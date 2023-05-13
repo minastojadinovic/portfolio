@@ -1,0 +1,22 @@
+.fotka {
+	width: 20%;
+	margin: auto;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10vh;
+}
+
+.fotka img.image-hover {
+	position: absolute;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	visibility: hidden;
+	transition: visibility .1s;
+}
+
+.fotka:hover img.image-hover {
+	visibility: visible;
+}

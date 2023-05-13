@@ -1,0 +1,141 @@
+body {background-color: #f8faf6;}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.tc-container0 {
+              display: flex;
+                gap: 2px;
+                float: right;
+            }
+
+      .tc-container {
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        
+      }
+
+      .top-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+      }
+
+      .top-img:hover{
+        opacity: 1;
+      }
+
+      .tc-container img{
+        width: 100%;
+        height: 100%;
+      }
+
+      .tc-container2 {
+        overflow: hidden;
+        width: 50px;
+        height: 50px;
+        top: -7px;
+        position: relative;
+        
+        
+      }
+
+      .top-img2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+      }
+
+      .top-img2:hover{
+        opacity: 1;
+      }
+
+      .tc-container2 img{
+        width: 100%;
+        height: 100%;
+      }
+
+      .tc-container3 {
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+        position: relative; 
+
+      }
+
+      .top-img3 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+      }
+
+      .top-img3:hover{
+        opacity: 1;
+      }
+
+      .tc-container3 img{
+        width: 100%;
+        height: 100%;
+      }
+
+      .tc-container4 {
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+        position: relative;
+          
+      }
+
+      .top-img4 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+      }
+
+      .top-img4:hover{
+        opacity: 1;
+      }
+
+      .tc-container4 img{
+        width: 100%;
+        height: 100%;
+      }
+
+svg {
+  height: 140%;
+         width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#PODACI11{
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+#PODACI11:hover {
+  opacity: 1;
+  transition: 5s;
+}
+
+#BELI{
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#BELI:hover {
+  opacity: 1;
+  transition: 5s;
+}
+
+

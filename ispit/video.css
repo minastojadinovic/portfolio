@@ -1,0 +1,265 @@
+	body {background-color: #f8faf6;
+			overflow:hidden;
+			cursor: none;
+		
+  }
+
+video {
+  width: 50vw;
+  height: 50vh;
+  margin-left: 50vw;
+  transform: translate(-50%);
+  position: absolute;
+  top: 25vh;
+  
+}
+
+
+
+p {font-family: 'Graphik', sans-serif;
+   font-size: 14px;
+   color: black;
+   background: none;
+   margin-top: 0px;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
+   position: absolute;
+   top: 85%;
+   left: 45%;
+   text-align: left;
+   transform: translate(-40%, -40%);
+   width: 50%;
+   line-height: 20px;
+   filter: blur(15px);
+         
+ }
+
+ p:hover{
+ 	filter: blur(0);
+ }
+
+.tc-container0 {
+            	display: flex;
+                gap: 2px;
+                float: right;
+            }
+
+			.tc-container {
+				overflow: hidden;
+				width: 40px;
+				height: 40px;
+				top: 16px;
+				right: 16px;
+				position: relative;
+				
+			}
+
+			.top-img {
+				position: absolute;
+				left: 0;
+				top: 0;
+				opacity: 0;
+			}
+
+			.top-img:hover{
+				opacity: 1;
+			}
+
+			.tc-container img{
+				width: 100%;
+				height: 100%;
+			}
+
+			.tc-container2 {
+				overflow: hidden;
+				width: 40px;
+				height: 40px;
+				top: 16px;
+				right: 16px;
+				position: relative;
+				
+				
+			}
+
+			.top-img2 {
+				position: absolute;
+				left: 0;
+				top: 0;
+				opacity: 0;
+			}
+
+			.top-img2:hover{
+				opacity: 1;
+			}
+
+			.tc-container2 img{
+				width: 100%;
+				height: 100%;
+			}
+
+			.tc-container3 {
+				overflow: hidden;
+				width: 50px;
+				height: 50px;
+				top: 9px;
+				right: 16px;
+				position: relative;	
+
+			}
+
+			.top-img3 {
+				position: absolute;
+				left: 0;
+				top: 0;
+				opacity: 0;
+			}
+
+			.top-img3:hover{
+				opacity: 1;
+			}
+
+			.tc-container3 img{
+				width: 100%;
+				height: 100%;
+			}
+
+			.tc-container4 {
+				overflow: hidden;
+				width: 40px;
+				height: 40px;
+				top: 16px;
+				right: 16px;
+				position: relative;
+					
+			}
+
+			.top-img4 {
+				position: absolute;
+				left: 0;
+				top: 0;
+				opacity: 0;
+			}
+
+			.top-img4:hover{
+				opacity: 1;
+			}
+
+			.tc-container4 img{
+				width: 100%;
+				height: 100%;
+			}
+
+			.tc-container5 {
+				overflow: hidden;
+				width: 40px;
+				height: 40px;
+				top: 16px;
+				right: 16px;
+				position: relative;
+					
+			}
+
+			.top-img5 {
+				position: absolute;
+				left: 0;
+				top: 0;
+				opacity: 0;
+			}
+
+			.top-img5:hover{
+				opacity: 1;
+			}
+
+			.tc-container5 img{
+				width: 100%;
+				height: 100%;
+			}
+		
+		
+
+            .cursor {
+            	z-index: 999;
+            	position: fixed;
+            	background: #0000FF;
+            	width: 20px;
+            	height: 20px;
+            	border-radius: 50%;
+            	pointer-events: none;
+            	box-shadow: 0 0 20px #0000FF,
+            	            0 0 60px #0000FF,
+            	            0 0 100px #0000FF;
+            	animation: colors 25s infinite;
+            	transform: translate(-50%, -50%);
+            	display: none;
+            }
+
+            @keyframes colors{
+            	0%{
+            		filter: hue-rotate(0deg);
+            	}
+            	100%{
+            		filter: hue-rotate(360deg);
+            	}
+            }
+
+            .cursor:before{
+            	content: '';
+            	position: absolute;
+            	background: #0000FF;
+            	width: 50px;
+            	height: 50px;
+            	opacity: 0;
+            	transform: translate(-30%, -30%);
+            	border-radius: 50%;
+            }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  position: absolute;
+  top: 75%;
+  left: -25%;
+  right: 0%;
+  bottom: 0;
+  margin: auto;
+}
+
+.table {
+  width: 900px;
+  height: 150px;
+
+}
+.table .monitor-wrapper {
+  width: 900px;
+  height: 130px;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0);
+}
+.table .monitor-wrapper .monitor {
+  width: 3000px;
+  height: 85px;
+  overflow: hidden;
+  white-space: nowrap;
+  box-shadow: inset 0px 5px 10px 2px rgba(0, 0, 0, 0);
+}
+.table .monitor-wrapper .monitor p {
+  font-family: 'Graphik', sans-serif;
+  font-size: 13px;
+  position: relative;
+  display: inline-block;
+  -webkit-animation:  move 150s infinite linear;
+  animation: move 150s infinite linear;
+  color: black;
+}
+
+@keyframes move {
+  from {
+    left: 100px;
+  }
+  to {
+    left: -8800px;
+  }
+}
